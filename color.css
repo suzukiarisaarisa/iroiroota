@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+margin:0px;
+padding: 0px;
+}
+body{
+	background-color:#F9F9F9;
+}
+
+nav{
+    width: 100%;
+    height: 5vw;
+    background-color: rgba(222,222,222,0.75);
+    position: fixed;
+	z-index: 999;
+}
+.logonavi{
+	display: inline-block;
+	margin-left: 3.5vw;
+	margin-top: 0.7vw;
+	transition: all 0.2s;
+}
+.logonavi img{
+	width: 3.9vw;
+}
+.logonavi:hover{
+	transform: scale(1.2,1.2);
+}
+.drops{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.9vw;
+}
+
+
+button{
+    width: 3.18vw;
+    height: 3.18vw;
+    border-radius: 50%;
+    margin-right: 3.28vw;
+    border: 1.6vw solid;
+    background-color: rgba(222,222,222,0.75);
+	transition: all 0.2s;
+	vertical-align: top;
+	outline: none;
+}
+button:hover{
+	border-width: 1.1vw;
+	border-style: solid;
+	transform: scale(1.2,1.2);
+	border-radius: 50%;
+}
+.a{
+    border-color: #322E26;	
+}
+.b{
+	border-color: #E1ECF0;
+}
+.c{
+    border-color: #C44E36;	
+}
+.d{
+    border-color: #CAAA29;	
+}
+.e{
+    border-color: #DA8635;	
+}
+.f{
+    border-color: #2B6A5F;	
+}
+.g{
+    border-color: #EACACA;	
+}
+.h{
+    border-color: #314829;	
+}
+.i{
+    border-color: #8A9DA3;	
+}
+.j{
+    border-color: #6EB9B6;	
+}
+.k{
+    border-color: #84AB3A;	
+}
+.n{
+	border-color: #C9B999;
+}
+.aikon{
+    text-align: center;
+    padding-top: 5vw;	
+}
+.aikon img{
+	   width: 18.39vw;
+	height: 15.36vw;
+    /* [disabled]background-color: #7C6464; */
+}
+h1{
+    text-align: center;
+    font-family: "a-otf-midashi-go-mb31-pr6n";
+    font-weight: normal;
+    font-size: 4.17vw;
+    letter-spacing: 0.1em;
+    color: #3e3a39;
+    margin-top: -2vw;
+}
+.colorcoad,.colorcoad2,.colorcoad3,.colorcoad4,.colorcoad5,.colorcoad6,.colorcoad7,.colorcoad8,.colorcoad9
+,.colorcoad10,.colorcoad11,.colorcoad12{
+    text-align: center;
+    font-family: "Avenir Next";
+    font-weight: 500;
+    font-size: 1.3vw;
+    letter-spacing: 0.1em;
+    color: #fff;
+    background-color: #322E26;
+    width: 8.85vw;
+    height: 2.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.15vw;
+    line-height: 2.5vw;
+    margin-top: 1.67vw;
+}
+.colorcoad{
+        background-color: #322E26;
+}
+.colorcoad2{
+	background-color:#E1ECF0;
+}
+.colorcoad3{
+	background-color:#C44E36;
+}
+.colorcoad4{
+	background-color:#CAAA29;
+}
+.colorcoad5{
+    background-color: #DA8635;	
+}
+.about{
+	text-align: center;
+	font-family: "a-otf-midashi-go-mb31-pr6n";
+	font-weight: normal;
+	font-size: 1.15vw;
+	letter-spacing: 0.1em;
+	color: #322e26;
+	line-height: 2.3vw;
+	margin-top: 2.62vw;
+}
+.img1{
+	text-align: center;
+	margin-top: 3.49vw;
+}
+.img1 img{
+	width: 23.28vw;
+}
+.mapphoto,.mapphoto2,.mapphoto3,.mapphoto4,.mapphoto5,.mapphoto6,
+.mapphoto7,.mapphoto8,.mapphoto9,.mapphoto10,.mapphoto11,.mapphoto12{
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top: 2.4vw;
+    background-size: 100%;
+    padding-bottom: 22.67vw;
+    z-index: 200;
+}
+.mapphoto img,.mapphoto2 img,.mapphoto3 img,.mapphoto4 img,.mapphoto5 img,.mapphoto6 img,
+.mapphoto7 img,.mapphoto8 img,.mapphoto9 img,.mapphoto10 img,.mapphoto11 img,.mapphoto12 img{
+	margin-top: 1.61vw;
+	width:38.85vw;
+}
+.mapphoto{
+	background-image: url(image/kuro.svg);
+}
+.mapphoto2{
+    background-image: url(image/kamataback.svg);	
+}
+.mapphoto3{
+    background-image: url(image/honmonziback.svg);	
+}
+.mapphoto4{
+    background-image: url(image/ityouback.svg);
+}
+.mapphoto5{
+    background-image: url(image/agepanback.svg);
+}
+.map,.photo{
+    font-family: "Avenir Next";
+    font-weight: bold;
+    font-size: 2.5vw;
+    letter-spacing: 0.15em;
+    color: #f4f4f4;
+}
+.photo{
+	    padding-top: 23vw;
+}
+.map{
+	margin-top: 6.56vw;
+}
+.maplink{
+    text-align: center;
+    margin-top: 1.61vw;
+
+}
+.maplink iframe{
+	display: inline-block;
+    width: 38.85vw;
+    height: 27.34vw;
+    border-radius: 3.02vw;
+    border: 0.52vw solid #622425;
+	z-index: 0;
+}
+
+.waku{
+    display: inline-block;
+    width: 38vw;
+    height: 26.56vw;
+    border-radius: 3.2vw;
+    border: 0.78vw solid #F4F4F4;
+    margin-left: -39.5vw;
+	z-index: 20;
+	position: relative;
+}
+footer{
+    width: 100%;
+    background-image: url(image/footer.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+	z-index: 300;
+	margin-top: -10vw;
+}
+.footerbox{
+    width: 90%;
+    margin:0 auto ;
+	padding: 12vw 0 7VW;
+}
+.logowhite{
+    display: inline-block;
+    float: left;
+	margin-top: -2vw;
+}
+.logowhite img{
+	width:5.98vw;
+}
+.sns{
+    display: inline-block;
+    margin-left: 26vw;
+}
+.sns img{
+	height: 3.17vw;
+}
+.tuittar{
+    margin-right: 4.62vw;
+    margin-left: 4.62vw;
+}
+.contactt{
+    display: inline-block;
+    float: right;
+	font-family: "a-otf-midashi-go-mb31-pr6n";
+	font-size: 0.97vw;
+	letter-spacing: 0.1em;
+	line-height: 1.7vw;
+	text-align: left;
+	color: #3e3a39;
+	margin-top: -0.7vw;
+
+}
+.mapphoto6 {
+    background-image: url(image/senzokuback.svg);
+}
+.colorcoad6 {
+    background-color: #2B6A5F;
+}
+.colorcoad7 {
+    background-color: #EACACA;
+}
+.mapphoto7 {
+    background-image: url(image/sakuraback.svg);
+}
+.colorcoad8 {
+    background-color: #314829;
+}
+.mapphoto8 {
+    background-image: url(image/hosinoriback.svg);
+}
+.colorcoad9 {
+    background-color: #8A9DA3;
+}
+.mapphoto9 {
+    background-image: url(image/koujouback.svg);
+}
+.colorcoad10 {
+    background-color: #6EB9B6;
+}
+.mapphoto10 {
+    background-image: url(image/hanedaback.svg);
+}
+.colorcoad11 {
+    background-color: #84AB3A;
+}
+.mapphoto11 {
+    background-image: url(image/ryokutiback.svg);
+}
+.colorcoad12 {
+    background-color: #C9B999;
+}
+.mapphoto12 {
+    background-image: url(image/uguisuback.svg);
+}
